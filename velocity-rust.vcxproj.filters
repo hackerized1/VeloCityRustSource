@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="drawing">
+      <UniqueIdentifier>{1e14fbcb-b7ab-4085-b49b-3cb182a1fdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawing\resources">
+      <UniqueIdentifier>{81c6d7d7-2759-4ace-b2f3-a64b9cdbf32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{01583a55-c22c-45fa-a141-6bdc8054ffff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\controls">
+      <UniqueIdentifier>{33b9e010-7247-4c1d-899e-4af9ed8cd0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{fc297c87-66f1-473a-818d-80c25fefd37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{fc4a79c3-6a23-4cfd-962b-9012e5a689d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{79717ec9-f5a0-4aa7-a11b-fdd961143eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{bc055214-3b7d-4e3b-8a69-0942648b06b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\shared">
+      <UniqueIdentifier>{59422849-0d9e-4afc-8331-56add6eacae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\sdk">
+      <UniqueIdentifier>{e1d66431-9106-4c99-bd48-3d05d0bcf35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features">
+      <UniqueIdentifier>{5b31df3b-748a-42ca-aa06-65ee59276c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{fd147e55-44a4-44a0-b4f6-78d7d6fcfcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\encryption">
+      <UniqueIdentifier>{26e2b985-bb25-43fe-9099-05ab18c44315}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fnv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font_installer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clistbox.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="clabel.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ckeybind.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="cgroupbox.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ccolorpicker.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ccombobox.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ccheckbox.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="cbutton.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="cbasecontrol.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="cpicture.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="csliderfloat.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ctab.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ctabcontrol.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ctextbox.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="cwindow.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="drag.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="wrappers.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menucfg.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="editor.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="colorlerp.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>cheat\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>cheat\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>cheat\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>cheat\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="dome.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="playerlist.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="misc-radar.h">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>auth\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa.h">
+      <Filter>auth\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="hwid.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="themida.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="antidebug.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\dbg.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\def.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\include.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\main.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="headers.h">
+      <Filter>auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
